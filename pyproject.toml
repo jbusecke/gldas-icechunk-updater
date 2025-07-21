@@ -1,0 +1,17 @@
+[project]
+name = "gldas-icechunk-updater"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "earthaccess>=0.14.0",
+    "icechunk<1.0.0",
+    "xarray>=2025.7.1",
+]
+
+[dependency-groups]
+examples = [
+    "obstore>=0.7.0",
+    "xarray>=2025.7.1",
+]
