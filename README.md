@@ -1,4 +1,4 @@
-# GLDAS icehunk updater
+# GLDAS icechunk updater
 
 ## Instructions
 
